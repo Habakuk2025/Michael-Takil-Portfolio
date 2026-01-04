@@ -1,10 +1,10 @@
- Michael Takil – Professional Portfolio
+# Michael Takil – Professional Portfolio
 
 **Full-Stack & AI Engineer | ICT Entrepreneur | Ethical Hacking Trainee**
 
 ---
 
- About Me
+## About Me
 
 I am a Full-Stack & AI Engineer, ICT Entrepreneur, and Ethical Hacking trainee with experience in:
 
@@ -16,9 +16,9 @@ I am a Full-Stack & AI Engineer, ICT Entrepreneur, and Ethical Hacking trainee w
 
 ---
 
- 🚀 Projects
+## 🚀 Projects
 
- Web & Cloud Applications
+### Web & Cloud Applications
 
 | Project | Description | Tech Stack | Live Demo |
 |--------|-------------|-----------|-----------|
@@ -27,7 +27,7 @@ I am a Full-Stack & AI Engineer, ICT Entrepreneur, and Ethical Hacking trainee w
 | **[Road Traffic Authority](https://road-traffic-authority.web.app)** | Cloud-based system for vehicle registration, driver licensing, and traffic enforcement. | Node.js, MongoDB, REST APIs, Cloud Hosting | [Live](https://road-traffic-authority.web.app) |
 | **Live Health Tracking & Monitoring System** | Centralized platform for hospital/clinic operations, patient records, and real-time reporting. | Firebase, PostgreSQL, Cloud Hosting | Internal |
 
- AI & Multimedia Platforms
+### AI & Multimedia Platforms
 
 | Project | Description | Tech Stack | Live Demo |
 |--------|-------------|-----------|-----------|
@@ -35,7 +35,7 @@ I am a Full-Stack & AI Engineer, ICT Entrepreneur, and Ethical Hacking trainee w
 | **NudePixel** | AI platform for text-to-image, text-to-video, image-to-video generation. Optimized inference on GCP GPU. | Node.js, React, GCP, AI | Internal |
 | **[RewardRush](https://play.google.com/store/apps/details?id=com.TakilGame.RewardRush)** | Fast-paced mobile game with real-time leaderboard integration. | Java, Firebase | [Google Play](https://play.google.com/store/apps/details?id=com.TakilGame.RewardRush) |
 
- Government & Analytics Systems
+### Government & Analytics Systems
 
 | Project | Description | Tech Stack | Live Demo |
 |--------|-------------|-----------|-----------|
@@ -46,7 +46,7 @@ I am a Full-Stack & AI Engineer, ICT Entrepreneur, and Ethical Hacking trainee w
 
 ---
 
- 📜 Licenses & Certifications
+## 📜 Licenses & Certifications
 
 - **eJPT** – Junior Penetration Tester  
 - **OSCP** – Offensive Security Certified Professional (In Progress)  
@@ -55,7 +55,7 @@ I am a Full-Stack & AI Engineer, ICT Entrepreneur, and Ethical Hacking trainee w
 
 ---
 
- 📂 CV & Contact
+## 📂 CV & Contact
 
 - **Download CV:** [CV-Michael-Takil.pdf](CV-Michael-Takil.pdf)  
 - **Email:** michaeltakil46@gmail.com  
@@ -64,7 +64,7 @@ I am a Full-Stack & AI Engineer, ICT Entrepreneur, and Ethical Hacking trainee w
 
 ---
 
- ⚡ Tech Stack & Skills
+## ⚡ Tech Stack & Skills
 
 - **AI & Multimedia:** NLP, Text-to-Image/Video, Voice-to-Text, Unity integration  
 - **Security:** Web application security, Penetration Testing, Red Team Operations  
