@@ -1,6 +1,6 @@
 <!-- Animated Header Wave -->
 <p align="center">
-  <img src="https://github.com/username/username/blob/main/assets/header-wave.gif" width="100%" />
+  <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" width="100%" />
 </p>
 
 # 👋 Hi, I'm Michael Takil
@@ -21,6 +21,10 @@
 ---
 
 ## 🌟 About Me
+
+<p align="center">
+  <img src="https://media.giphy.com/media/l4FGuhL4U2WyjdkaY/giphy.gif" width="50%" />
+</p>
 
 I am a Full-Stack & AI Engineer, ICT Entrepreneur, and Ethical Hacking trainee with experience in:
 
@@ -112,5 +116,5 @@ I am a Full-Stack & AI Engineer, ICT Entrepreneur, and Ethical Hacking trainee w
 
 <!-- Animated Footer Wave -->
 <p align="center">
-  <img src="https://github.com/username/username/blob/main/assets/footer-wave.gif" width="100%" />
+  <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" width="100%" />
 </p>
