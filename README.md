@@ -72,12 +72,6 @@
     box-shadow: 0 0 20px gold;
   }
 
-  .card img {
-    width: 100%;
-    border-radius: 8px;
-    margin-top: 10px;
-  }
-
   a {
     color: gold;
     text-decoration: none;
@@ -118,21 +112,18 @@
       <p>Loan management system with tier-based borrowing, repayment tracking, and real-time dashboards.</p>
       <p><strong>Tech:</strong> HTML, CSS, JS, Firebase, Cloud Hosting</p>
       <a href="https://stepup-loan.web.app" target="_blank">Live Demo</a>
-      <img src="https://media.giphy.com/media/l0MYC0LajbaPoEADu/giphy.gif" alt="StepUp Loan Preview">
     </div>
     <div class="card">
       <h4>National Transport System</h4>
       <p>RTA checkpoint monitoring & vehicle/license management with live alerts and reporting dashboards.</p>
       <p><strong>Tech:</strong> HTML, CSS, JS, Firebase, PostgreSQL</p>
       <a href="https://national-transport-system.web.app" target="_blank">Live Demo</a>
-      <img src="https://media.giphy.com/media/l0HlQ6IYvHmr2l6vO/giphy.gif" alt="National Transport Preview">
     </div>
     <div class="card">
       <h4>Road Traffic Authority</h4>
       <p>Cloud-based system for vehicle registration, driver licensing, and traffic enforcement.</p>
       <p><strong>Tech:</strong> Node.js, MongoDB, REST APIs, Cloud Hosting</p>
       <a href="https://road-traffic-authority.web.app" target="_blank">Live Demo</a>
-      <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" alt="RTA Preview">
     </div>
     <div class="card">
       <h4>Live Health Tracking & Monitoring System</h4>
