@@ -1,120 +1,204 @@
-<!-- Animated Header Wave -->
-<p align="center">
-  <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" width="100%" />
-</p>
 
-# 👋 Hi, I'm Michael Takil
-**Full-Stack & AI Engineer | ICT Entrepreneur | Ethical Hacking Trainee**
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Michael Takil – Professional Portfolio</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: black;
+    color: gold;
+    overflow-x: hidden;
+  }
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/michael-takil">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="mailto:michaeltakil46@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-  <a href="https://github.com/michaeltakil">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-</p>
+  /* Glowing star particles */
+  .star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: gold;
+    border-radius: 50%;
+    animation: twinkle 2s infinite ease-in-out alternate;
+  }
 
----
+  @keyframes twinkle {
+    0% { opacity: 0.2; transform: scale(0.5); }
+    50% { opacity: 1; transform: scale(1.2); }
+    100% { opacity: 0.2; transform: scale(0.5); }
+  }
 
-## 🌟 About Me
+  header {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
 
-<p align="center">
-  <img src="https://media.giphy.com/media/l4FGuhL4U2WyjdkaY/giphy.gif" width="50%" />
-</p>
+  h1 { font-size: 3rem; margin-bottom: 0.5rem; }
+  h2 { font-size: 1.5rem; margin-bottom: 2rem; font-weight: normal; }
 
-I am a Full-Stack & AI Engineer, ICT Entrepreneur, and Ethical Hacking trainee with experience in:
+  section {
+    padding: 0 40px 60px 40px;
+  }
 
-- **Languages & Frameworks:** Node.js, React, Firebase, PostgreSQL, MongoDB  
-- **Cloud Platforms:** Google Cloud Platform (GCP), AWS  
-- **AI & Multimedia Systems:** Text-to-Image/Video, Image-to-Video, NLP, Unity integration  
-- **Security:** Web application security, Penetration Testing, Red Team operations  
-- **Entrepreneurship & ICT Solutions Development  
+  h3.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    text-decoration: underline;
+    text-decoration-color: gold;
+    text-underline-offset: 8px;
+  }
 
----
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
 
-## 🚀 Projects
+  .card {
+    background: rgba(0,0,0,0.8);
+    border: 2px solid gold;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
 
-### 💻 Web & Cloud Applications
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px gold;
+  }
 
-| Project | Description | Tech Stack | Demo |
-|--------|-------------|-----------|------|
-| **StepUp Loan** | Loan management system with tier-based borrowing, repayment tracking, and dashboards | HTML, CSS, JS, Firebase, Cloud Hosting | [Live](https://stepup-loan.web.app) |
-| **National Transport System** | RTA checkpoint monitoring & vehicle/license management | HTML, CSS, JS, Firebase, PostgreSQL | [Live](https://national-transport-system.web.app) |
-| **Road Traffic Authority** | Cloud-based vehicle registration & traffic enforcement | Node.js, MongoDB, REST APIs, Cloud Hosting | [Live](https://road-traffic-authority.web.app) |
-| Live Health Tracking & Monitoring System | Centralized platform for hospital/clinic operations | Firebase, PostgreSQL, Cloud Hosting | Internal |
+  .card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
 
-### 🤖 AI & Multimedia Platforms
+  a {
+    color: gold;
+    text-decoration: none;
+    font-weight: bold;
+  }
 
-| Project | Description | Tech Stack | Demo |
-|--------|-------------|-----------|------|
-| KinaChat | AI-powered multimedia chat platform | NLP, React, Firebase, GCP | Internal |
-| NudePixel | AI platform for text-to-image/video generation | Node.js, React, GCP, AI | Internal |
-| RewardRush | Fast-paced mobile game with real-time leaderboard | Java, Firebase | [Google Play](https://play.google.com/store/apps/details?id=com.TakilGame.RewardRush) |
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
 
-### 🏛 Government & Analytics Systems
+<!-- Glowing stars animation -->
+<script>
+  const numStars = 150;
+  for(let i=0;i<numStars;i++){
+    const star = document.createElement('div');
+    star.className = 'star';
+    star.style.top = Math.random() * window.innerHeight + 'px';
+    star.style.left = Math.random() * window.innerWidth + 'px';
+    star.style.animationDuration = (Math.random()*3 + 1) + 's';
+    document.body.appendChild(star);
+  }
+</script>
 
-| Project | Description | Tech Stack | Demo |
-|--------|-------------|-----------|------|
-| MorobeLiquor Track | Digitized liquor licensing & compliance monitoring | HTML, CSS, JS, Firebase, Leaflet.js | [Live](https://morobeliquor-track.web.app/) |
-| RPNGC Live Monitoring & Tracking | Police operations platform | HTML, CSS, JS, Firebase | Internal |
-| Connect PNG – DoWH Dashboard | National infrastructure monitoring with KPIs & maps | HTML, CSS, JS, Chart.js, Leaflet.js, Firebase | Internal |
-| ICCC Live Price Tracking | Nationwide price monitoring with dashboards & mapping | HTML, CSS, JS, Firebase | Internal |
+<header>
+  <h1>Michael Takil</h1>
+  <h2>Full-Stack & AI Engineer | ICT Entrepreneur | Ethical Hacking Trainee</h2>
+</header>
 
----
+<!-- Web & Cloud Applications -->
+<section>
+  <h3 class="section-title">Web & Cloud Applications</h3>
+  <div class="projects">
+    <div class="card">
+      <h4>StepUp Loan</h4>
+      <p>Loan management system with tier-based borrowing, repayment tracking, and real-time dashboards.</p>
+      <p><strong>Tech:</strong> HTML, CSS, JS, Firebase, Cloud Hosting</p>
+      <a href="https://stepup-loan.web.app" target="_blank">Live Demo</a>
+      <img src="https://media.giphy.com/media/l0MYC0LajbaPoEADu/giphy.gif" alt="StepUp Loan Preview">
+    </div>
+    <div class="card">
+      <h4>National Transport System</h4>
+      <p>RTA checkpoint monitoring & vehicle/license management with live alerts and reporting dashboards.</p>
+      <p><strong>Tech:</strong> HTML, CSS, JS, Firebase, PostgreSQL</p>
+      <a href="https://national-transport-system.web.app" target="_blank">Live Demo</a>
+      <img src="https://media.giphy.com/media/l0HlQ6IYvHmr2l6vO/giphy.gif" alt="National Transport Preview">
+    </div>
+    <div class="card">
+      <h4>Road Traffic Authority</h4>
+      <p>Cloud-based system for vehicle registration, driver licensing, and traffic enforcement.</p>
+      <p><strong>Tech:</strong> Node.js, MongoDB, REST APIs, Cloud Hosting</p>
+      <a href="https://road-traffic-authority.web.app" target="_blank">Live Demo</a>
+      <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" alt="RTA Preview">
+    </div>
+    <div class="card">
+      <h4>Live Health Tracking & Monitoring System</h4>
+      <p>Centralized platform for hospital/clinic operations, patient records, and real-time reporting.</p>
+      <p><strong>Tech:</strong> Firebase, PostgreSQL, Cloud Hosting</p>
+      <p>Internal</p>
+    </div>
+  </div>
+</section>
 
-## ⚡ Tech Stack & Skills
+<!-- AI & Multimedia Platforms -->
+<section>
+  <h3 class="section-title">AI & Multimedia Platforms</h3>
+  <div class="projects">
+    <div class="card">
+      <h4>KinaChat</h4>
+      <p>AI-powered multimedia chat platform. Users generate images, videos, music, voice outputs, translations, and Unity projects.</p>
+      <p><strong>Tech:</strong> NLP, React, Firebase, GCP</p>
+      <p>Internal</p>
+    </div>
+    <div class="card">
+      <h4>NudePixel</h4>
+      <p>AI platform for text-to-image, text-to-video, image-to-video generation. Optimized inference on GCP GPU.</p>
+      <p><strong>Tech:</strong> Node.js, React, GCP, AI</p>
+      <p>Internal</p>
+    </div>
+    <div class="card">
+      <h4>RewardRush</h4>
+      <p>Fast-paced mobile game with real-time leaderboard integration.</p>
+      <p><strong>Tech:</strong> Java, Firebase</p>
+      <a href="https://play.google.com/store/apps/details?id=com.TakilGame.RewardRush" target="_blank">Google Play</a>
+    </div>
+  </div>
+</section>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black" />
-  <img src="https://img.shields.io/badge/GCP-4285F4?logo=googlecloud&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=FF9900" />
-</p>
+<!-- Government & Analytics Systems -->
+<section>
+  <h3 class="section-title">Government & Analytics Systems</h3>
+  <div class="projects">
+    <div class="card">
+      <h4>MorobeLiquor Track</h4>
+      <p>Digitized liquor licensing & compliance monitoring system for Morobe Provincial Government.</p>
+      <p><strong>Tech:</strong> HTML, CSS, JS, Firebase, Leaflet.js</p>
+      <a href="https://morobeliquor-track.web.app/" target="_blank">Live Demo</a>
+    </div>
+    <div class="card">
+      <h4>RPNGC Live Monitoring & Tracking System</h4>
+      <p>Police operations platform with case management, incident mapping, dashboards, and notifications.</p>
+      <p><strong>Tech:</strong> HTML, CSS, JS, Firebase</p>
+      <p>Internal</p>
+    </div>
+    <div class="card">
+      <h4>Connect PNG – DoWH Dashboard</h4>
+      <p>National infrastructure monitoring dashboard with KPIs, maps, and real-time reporting.</p>
+      <p><strong>Tech:</strong> HTML, CSS, JS, Chart.js, Leaflet.js, Firebase</p>
+      <p>Internal</p>
+    </div>
+    <div class="card">
+      <h4>ICCC Live Price Tracking System</h4>
+      <p>Nationwide price monitoring system with dashboards, GPS mapping, automated violation detection, and audit-ready reporting.</p>
+      <p><strong>Tech:</strong> HTML, CSS, JS, Firebase</p>
+      <p>Internal</p>
+    </div>
+  </div>
+</section>
 
-- **AI & Multimedia:** NLP, Text-to-Image/Video, Voice-to-Text, Unity integration  
-- **Security:** Web application security, Penetration Testing, Red Team Operations  
-- **Cloud:** Google Cloud, Firebase Hosting, AWS  
-
----
-
-## 📜 Licenses & Certifications
-
-<p align="center">
-  <img src="https://img.shields.io/badge/eJPT-Junior%20PenTest-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/OSCP-In%20Progress-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/OSWE-In%20Progress-red?style=for-the-badge" />
-</p>
-
-- Responsive Web Design  
-- Back End Development & APIs  
-- Front End Development Libraries  
-- JavaScript Algorithms & Data Structures  
-- Relational Databases  
-
----
-
-## 📂 CV & Contact
-
-- **Download CV:** [CV-Michael-Takil.pdf](CV-Michael-Takil.pdf)  
-- **Email:** michaeltakil46@gmail.com  
-- **Phone (WhatsApp):** +675 821649319  
-- **LinkedIn:** [Michael Takil](https://www.linkedin.com/in/michael-takil)  
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=michaeltakil&show_icons=true&theme=radical" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=michaeltakil&layout=compact&theme=radical" />
-</p>
-
-<!-- Animated Footer Wave -->
-<p align="center">
-  <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" width="100%" />
-</p>
+</body>
+</html>
