@@ -88,12 +88,12 @@
 <!-- Glowing stars animation -->
 <script>
   const numStars = 150;
-  for(let i=0;i<numStars;i++){
+  for(let i = 0; i < numStars; i++){
     const star = document.createElement('div');
     star.className = 'star';
     star.style.top = Math.random() * window.innerHeight + 'px';
     star.style.left = Math.random() * window.innerWidth + 'px';
-    star.style.animationDuration = (Math.random()*3 + 1) + 's';
+    star.style.animationDuration = (Math.random() * 3 + 1) + 's';
     document.body.appendChild(star);
   }
 </script>
